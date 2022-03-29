@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-RUN while :; do echo ok; sleep 0.05; done
+RUN do echo ok; sleep 0.05; done
